@@ -6,12 +6,12 @@ deps:
   path: data/splitter/validation.csv
 - md5: bef7249c1924c68f4bd148ecef0713e3
   path: src/decision_tree.py
-md5: a4fde57e9fb6cf1ac9fd8f04037eba13
+md5: aefaa23b07ad99de575ec188d8a6d43e
 outs:
 - cache: true
-  md5: d0fc6cd35131c61e0c017e166beaa8da
+  md5: ca091b4c0f1186155cb3cc6dd07ebd96
   path: data/decision_tree/model15.pkl
 - cache: false
-  md5: 7aea419c725cd7d7d9558e908b4ac4ce
+  md5: a0dd60bacf5fae6117c45e1c4d705272
   metric: true
   path: results/score.txt
